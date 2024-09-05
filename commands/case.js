@@ -1448,7 +1448,7 @@ case 'ceksn': {
 }
 break
 case 'sc': {
-  let res = await fetch('https://api.github.com/repos/DitzOfc-Expertise/Yuki_Botz')
+  let res = await fetch('https://api.github.com/repos/DitzOfc-Expertise/Yuki-Botz')
   let json = await res.json()
   let sc = `乂  *B O T - S C R I P T*\n\n`
   sc += `┌  ◦  *Name* : ${json.name}\n`
