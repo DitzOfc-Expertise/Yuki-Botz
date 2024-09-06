@@ -14,7 +14,7 @@ Script Ini *Gratis* Dan No ENC 100% Dan Saya Akan akan melanjutkan Update, Dilar
 ### 1. Install Aplikasi [Termux](https://f-droid.org/repo/com.termux_118.apk)
 > Setelah Install Aplikasi Termux, Silahkan Salin Teks Dibawah, Setelah Disalin Tempel Di Aplikasi Termux.
 ```bash
-pkg update -y;pkg upgrade -y;pkg install nodejs -y;pkg install git -y;git clone https://github.com/DitzOfc-Expertise/Yuki_Botz.git && cd Yuki_Botz; node index
+pkg update -y;pkg upgrade -y;pkg install nodejs -y;pkg install git -y;git clone https://github.com/DitzOfc-Expertise/Yuki-Botz.git && cd Yuki-Botz; node index
 ```
 ***
 </details></details>
@@ -155,7 +155,7 @@ let buttons = [{
    text: "Your title button copy here",
    copy_code: "Your Text to copy here"
 }]
-// Integrasikan Button Copy Ke Socket
+// Integrasikan Button Multiple Ke Socket
 await conn.sendButton(m.chat, 'Your Text Here', 'Your Footer Here', buttons, m) 
 ```
 ***
